@@ -2,10 +2,10 @@ import MySQLdb
 
 class DB:
     def connect(self):
-        hostname = '198.199.107.31'
-        dbname = 'twitter_follow'
-        username = 'root'
-        password = 'groove'
+        hostname = ''
+        dbname = ''
+        username = ''
+        password = ''
 
         connection = MySQLdb.connect(hostname, username, password, dbname)
         return connection
